@@ -1,0 +1,47 @@
+
+package array;
+public class ARRAY {
+    public static void main(String[] args) {
+        //Array 2D
+     //tipe data primitif
+        int[][] data01 = {
+            {1,2},
+            {3,4,5}
+        };
+        System.out.println(data01[1][1]);
+        float[][] data02 = {
+            {4.5f,3.5f},
+            {6.7f, 5.76f}       
+        };
+        System.out.println(data02[0][1]);
+        double[][] data03 = {
+            {2.4, 3.2},
+            {3.4, 5.67, 54.1}
+        };
+        System.out.println(data03[1][2]);
+        char[][] data04 = {
+        {'A', 'B', 'C'},
+        {'D', 'E', 'F'}
+    };
+        System.out.println(data04[0][2]);
+//tipe data non primitif
+        Double[][]data05 = {
+            {23.4, 11.2},
+            {12.5, 145.5, 5.67}
+        };
+        System.out.println(data05[1][1]);
+        
+        Integer[][]data06 = {
+            {4,3,5},
+            {2,6,10,11,13}
+        };
+        System.out.println(data06[1][1]);
+        
+        String[][]data07 = {
+            {"satu", "dua"},
+            {"tiga", "empat"}
+        };
+        System.out.println(data07[0][1]);
+    }
+    
+}
